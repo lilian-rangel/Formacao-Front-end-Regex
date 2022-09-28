@@ -23,3 +23,8 @@ O símbolo + é um outro atalho para definir a quantidade:
 - {n,m} -> no mínimo n vezes, no máximo m vezes.
 
 - \s significa whitespace.
+- Classes de letras
+- [A-Z] significa de A até Z, sempre maiúscula.
+- [a-z] significa de a até z, sempre minúscula.
+- [A-Za-z] significa A-Z ou a-z.
+- [abc] significa a, b ou c.
