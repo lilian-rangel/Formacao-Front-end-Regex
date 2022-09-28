@@ -9,7 +9,7 @@ Regular expressions
 
 Existem quantifiers que definem quantas vezes um caractere deve aparecer:
 - {1} é um quantifier que significa uma vez.
-- * é um quantifier que significa zero, uma ou mais vezes
+- (*) é um quantifier que significa zero, uma ou mais vezes
 - . é um meta-char que significa qualquer char.
 - Com \ podemos escapar meta-chars, por exemplo \.
  [.-]?- ponto ou hífen zero ou uma vez.
