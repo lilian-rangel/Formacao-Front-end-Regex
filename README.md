@@ -21,3 +21,5 @@ O símbolo + é um outro atalho para definir a quantidade:
 - {n} -> exatamente n vezes.
 - {n,} -> no mínimo n vezes.
 - {n,m} -> no mínimo n vezes, no máximo m vezes.
+
+- \s significa whitespace.
