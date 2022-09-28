@@ -13,7 +13,8 @@ Existem quantifiers que definem quantas vezes um caractere deve aparecer:
 - (.) é um meta-char que significa qualquer char.
 - Com \ podemos escapar meta-chars, por exemplo \.
  [.-]?- ponto ou hífen zero ou uma vez.
- [^,]+ que pega qualquer dígito que não seja uma vírgula, seja ele letra ou número
+ [^,]+ que pega qualquer dígito que não seja uma vírgula, seja ele letra ou número.
+ - O circunflexo (^) significa negação dentro dos colchetes.
 
 O símbolo + é um outro atalho para definir a quantidade:
 (?) -> zero ou uma vez.
@@ -24,7 +25,7 @@ O símbolo + é um outro atalho para definir a quantidade:
 - {n,m} -> no mínimo n vezes, no máximo m vezes.
 
 - \s significa whitespace.
-- Classes de letras
+ Classes de letras
 - [A-Z] significa de A até Z, sempre maiúscula.
 - [a-z] significa de a até z, sempre minúscula.
 - [A-Za-z] significa A-Z ou a-z.
