@@ -16,9 +16,9 @@ Existem quantifiers que definem quantas vezes um caractere deve aparecer:
  [^,]+ que pega qualquer dígito que não seja uma vírgula, seja ele letra ou número
 
 O símbolo + é um outro atalho para definir a quantidade:
- ? -> zero ou uma vez.
- * -> zero ou mais vezes.
- + -> uma ou mais vezes.
+= ? -> zero ou uma vez.
+= * -> zero ou mais vezes.
+= + -> uma ou mais vezes.
 - {n} -> exatamente n vezes.
 - {n,} -> no mínimo n vezes.
 - {n,m} -> no mínimo n vezes, no máximo m vezes.
