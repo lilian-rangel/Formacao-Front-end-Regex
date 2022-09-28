@@ -13,3 +13,11 @@ Existem quantifiers que definem quantas vezes um caractere deve aparecer:
 - . é um meta-char que significa qualquer char.
 - Com \ podemos escapar meta-chars, por exemplo \.
 - [.-]?- ponto ou hífen zero ou uma vez.
+
+O símbolo + é um outro atalho para definir a quantidade:
+- ? -> zero ou uma vez.
+- * -> zero ou mais vezes.
+- + -> uma ou mais vezes.
+- {n} -> exatamente n vezes.
+- {n,} -> no mínimo n vezes.
+- {n,m} -> no mínimo n vezes, no máximo m vezes.
