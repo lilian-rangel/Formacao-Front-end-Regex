@@ -25,6 +25,8 @@ O símbolo + é um outro atalho para definir a quantidade:
 - {n,m} -> no mínimo n vezes, no máximo m vezes.
 
 - \s significa whitespace.
+- \w significa word char e é uma atalho para [A-Za-z0-9_].
+
  Classes de letras
 - [A-Z] significa de A até Z, sempre maiúscula.
 - [a-z] significa de a até z, sempre minúscula.
