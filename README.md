@@ -32,6 +32,14 @@ O símbolo + é um outro atalho para definir a quantidade:
 - [a-z] significa de a até z, sempre minúscula.
 - [A-Za-z] significa A-Z ou a-z.
 - [abc] significa a, b ou c.
+
+Âncoras 
 - \b significa word boundary (seleciona exatamente o que procura excluindo o word char (\w) antes ou depois)
+- ^ significa algo específico no início
+- $ significa algo específico no fim
+- (?:) signfica non-capturing group(não ver esse grupo na resposta) [(?:de\s+) (não deve devolver o grupo formado pela preposição de e por um \s)]
+
+Seleção de data:
+[1-3]?\d\s+de\s+[A-Z][a-zç]{3,8}\s+de\s+[12]\d{3} => 18 de agosto de 1983
 
 ***Os parenteses foram usados pois os caracteres sumiam ao commitar***
