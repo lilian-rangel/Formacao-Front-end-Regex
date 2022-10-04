@@ -32,5 +32,6 @@ O símbolo + é um outro atalho para definir a quantidade:
 - [a-z] significa de a até z, sempre minúscula.
 - [A-Za-z] significa A-Z ou a-z.
 - [abc] significa a, b ou c.
+- \b significa word boundary (seleciona exatamente o que procura excluindo o word char (\w) antes ou depois)
 
 ***Os parenteses foram usados pois os caracteres sumiam ao commitar***
